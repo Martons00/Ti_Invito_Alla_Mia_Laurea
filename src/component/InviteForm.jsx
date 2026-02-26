@@ -45,6 +45,12 @@ const InviteForm = () => {
             {/* STEP 1: Box nome */}
             {step === 0 && (
                 <form onSubmit={handleNextNome} className="project-description__form">
+
+                    <img
+                        src="/Ti_Invito_Alla_Mia_Laurea/img/tony.jpeg"
+                        alt="Indovinello"
+                        style={{ width: '70%', marginBottom: '20px', borderRadius: '8px' }}
+                    />
                     <div style={{ paddingTop: '20px' }}>
                         <label htmlFor="nomePersona" style={{ display: 'block', marginBottom: '10px', fontWeight: 'bold' }}>
                             Il tuo nome:
@@ -134,7 +140,7 @@ const InviteForm = () => {
 
                             <strong>📅 Data: Venerdì 27 Marzo 2026</strong><br />
                             Vieni a festeggiare con noi! <strong><br />
-                            Forza Napoli SEMPRE!</strong> 💙⚽<br /><br />
+                                Forza Napoli SEMPRE!</strong> 💙⚽<br /><br />
 
                             <strong>📍 CENA - 20:00</strong><br />
                             <strong>Il Cucinino</strong><br />
@@ -155,7 +161,7 @@ const InviteForm = () => {
                         </p>
                     </div>
 
-                        <div><strong style={{ display: 'block', width: '100%', marginBottom: '10px' }}>Aiutaci a tenere il conto.</strong></div>
+                    <div><strong style={{ display: 'block', width: '100%', marginBottom: '10px' }}>Aiutaci a tenere il conto.</strong></div>
                     <div style={{ paddingTop: '20px', display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
                         {/* Aggiungi all'evento */}
                         <div className="program-icon-item project-description__link">
