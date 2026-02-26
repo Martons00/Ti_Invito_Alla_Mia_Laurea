@@ -36,7 +36,7 @@ const InviteForm = () => {
                         __html: renderWithBold(
                             step === 0 ? "Ciao **ospite**! \nInserisci il tuo nome per iniziare." :
                                 step === 1 ? "Benvenuto **" + nomePersona + "**! Completa con la risposta giusta e ne saprai di più." :
-                                    "Caro ** " + nomePersona + " **! Meriti di esserci! 🎊"
+                                    "Caro/a ** " + nomePersona + " **! Meriti di esserci! 🎊"
                         )
                     }}
                 />
@@ -155,9 +155,9 @@ const InviteForm = () => {
                         </p>
                     </div>
 
+                        <div><strong style={{ display: 'block', width: '100%', marginBottom: '10px' }}>Aiutaci a tenere il conto.</strong></div>
                     <div style={{ paddingTop: '20px', display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
                         {/* Aggiungi all'evento */}
-                        <strong style={{ display: 'block', width: '100%', marginBottom: '10px' }}>Aiutaci a tenere il conto.</strong>
                         <div className="program-icon-item project-description__link">
                             <span className="icon">📅</span>
                             <a href="https://calendar.app.google/qMRWAUYr28WjJ5SG7"
