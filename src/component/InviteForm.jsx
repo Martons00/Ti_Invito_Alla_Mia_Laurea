@@ -86,7 +86,7 @@ const InviteForm = () => {
                             "FORZA NAPOLI ..."
                         </label>
                         <img
-                            src="Ti_Invito_Alla_Mia_Laurea/img/napoli.png"
+                            src="/Ti_Invito_Alla_Mia_Laurea/img/napoli.png"
                             alt="Indovinello"
                             style={{ width: '50%', marginBottom: '20px', borderRadius: '8px' }}
                         />
@@ -157,6 +157,7 @@ const InviteForm = () => {
 
                     <div style={{ paddingTop: '20px', display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
                         {/* Aggiungi all'evento */}
+                        <strong style={{ display: 'block', width: '100%', marginBottom: '10px' }}>Aiutaci a tenere il conto.</strong>
                         <div className="program-icon-item project-description__link">
                             <span className="icon">📅</span>
                             <a href="https://calendar.app.google/qMRWAUYr28WjJ5SG7"
