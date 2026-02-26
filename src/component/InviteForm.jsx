@@ -34,8 +34,8 @@ const InviteForm = () => {
                     className="project-description__text"
                     dangerouslySetInnerHTML={{
                         __html: renderWithBold(
-                            step === 0 ? "Ciao **ospite**! Inserisci il tuo nome per iniziare." :
-                                step === 1 ? "Benvenuto **" + nomePersona + "**! Rispondi con la risposta giusta e ne saprai di più." :
+                            step === 0 ? "Ciao **ospite**! \nInserisci il tuo nome per iniziare." :
+                                step === 1 ? "Benvenuto **" + nomePersona + "**! Completa con la risposta giusta e ne saprai di più." :
                                     "Caro ** " + nomePersona + " **! Meriti di esserci! 🎊"
                         )
                     }}
@@ -86,7 +86,7 @@ const InviteForm = () => {
                             "FORZA NAPOLI ..."
                         </label>
                         <img
-                            src="Ti_Invito_Alla_Mia_Laurea/src/assets/napoli.png"
+                            src="Ti_Invito_Alla_Mia_Laurea/img/napoli.png"
                             alt="Indovinello"
                             style={{ width: '50%', marginBottom: '20px', borderRadius: '8px' }}
                         />
