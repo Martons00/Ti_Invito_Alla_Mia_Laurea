@@ -19,7 +19,7 @@ const InviteForm = () => {
         if (risposta === 'sempre') {
             setStep(2); // Mostra invito
         } else {
-            alert('⚽ Forza Napoli SEMPRE! Riprova 😎');
+            alert('⚽ Puoi fare di meglio! Riprova 😎');
         }
     };
 
