@@ -135,6 +135,11 @@ const InviteForm = () => {
             {step === 2 && (
                 <>
                     <div style={{ paddingTop: '30px' }}>
+                        <img
+                            src="/Ti_Invito_Alla_Mia_Laurea/img/we.png"
+                            alt="Indovinello"
+                            style={{ width: '35%', marginBottom: '20px', borderRadius: '8px' }}
+                        />
                         <p className="project-description__text">
                             Sei ufficialmente invitato alla mia festa di laurea!<br /><br />
 
