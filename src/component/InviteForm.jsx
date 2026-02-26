@@ -160,11 +160,11 @@ const InviteForm = () => {
                         {/* Aggiungi all'evento */}
                         <div className="program-icon-item project-description__link">
                             <span className="icon">📅</span>
-                            <a href="https://calendar.app.google/qMRWAUYr28WjJ5SG7"
+                            <a href="https://forms.gle/rbRsyp2VPvkefrN1A"
                                 target="_blank" rel="noopener noreferrer"
                                 className="label"
                                 style={{ textDecoration: 'none', color: 'inherit', fontWeight: 'bold' }}>
-                                Aggiungi al Calendar
+                                Compila il Form
                             </a>
                         </div>
 
